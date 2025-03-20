@@ -1,0 +1,38 @@
+/**
+ * @name Dark Neon Opty
+ * @author Opty
+ * @version 2.2.0
+ * @source https://github.com/optywine/dark-neon-theme/
+ * @website https://github.com/optywine/dark-neon-theme/
+ * @description A dark theme with bright neon-y colors, now with more options!
+ * @authorId 237564729332203521
+ * @invite XuVsRCgkN3
+*/
+
+@import url('https://B4T3S.github.io/DiscordDarkNeon/mainRewrite.css');
+/* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
+
+@import url('https://B4T3S.github.io/DiscordDarkNeon/css/hideUsers.css');
+/* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
+
+/* CUSTOMIZE COLORS IN HERE! */
+:root,
+.theme-dark, 
+.theme-light {
+  --rgb-highlight: 214, 39, 39; /* The main highlight color */
+  --rgb-background: 0, 0, 0; /* The main background color */
+  --rgb-text: 197, 200, 198; /* The main text color */
+  --rgb-close-button: 212, 18, 39; /* The main "close this" or "deny" color */
+  --rgb-online-color: 57, 255, 20; /* The color used in the "online" user status symbol */
+  --rgb-afk-color: 255, 255, 51; /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: 255, 0, 0; /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: 188, 19, 254; /* The color used in the "streaming X" user status symbol */
+
+  --transition-time: .3s; /* How fast animations added by the theme happen. Default is 0.3 seconds */
+
+  --background-image: url(https://cdn.discordapp.com/avatars/707466569793536000/7b10d7ee536a76b3a16f0647158da801.webp?size=1024&width=410&height=410); /* To add an image, replace unset with url(https://www.YOUR-URL-HERE.com) */
+  --background-position: center; /* Positions the background image */
+  --background-size: cover; /* Scales the background image */
+  --background-blur: 20px; /* Blurs the image which helps with readability of text infront of it */
+  --background-brightness: 20%; /* Changes the background images brightness */
+}
