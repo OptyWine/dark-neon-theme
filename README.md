@@ -1,6 +1,6 @@
 # Dark Neon Opty - Discord Theme
 
-![Theme Preview](https://i.imgur.com/UYkQCO3.png)  
+![Theme Preview](https://i.imgur.com/ocfzb8N.png)  
 *A vibrant dark-neon theme for Discord with glowing accents*
 
 ## ✨ Features
